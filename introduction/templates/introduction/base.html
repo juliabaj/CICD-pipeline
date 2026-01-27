@@ -137,16 +137,16 @@
             </a>
             <ul class="collapse list-unstyled" id="OWASP10_2021">
               <li>
-                <a href="/broken_access_control" class="sidebar-list-items">
+                <button onclick="launchLab('broken_access_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A1: Broken Access Control
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/cryptographic_failure" class="sidebar-list-items">
+                <button onclick="launchLab('crypto_failure_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A2: Cryptographic Failures
-                </a>
+                </button>
               </li>
               <li>
                 <a
@@ -160,63 +160,63 @@
                 </a>
                 <ul class="collapse list-unstyled" id="sqlSubmenu2">
                   <li>
-                    <a href="/injection" class="sidebar-list-items"
+                    <button onclick="launchLab('sql_injection_lab')" class="sidebar-list-items lab-button"
                       >SQl Injection
-                    </a>
+                    </button>
                   </li>
                   <li>
-                    <a href="/cmd" class="sidebar-list-items"
-                      >Command Injection</a
+                    <button onclick="launchLab('command_injection_lab')" class="sidebar-list-items lab-button"
+                      >Command Injection</button
                     >
                   </li>
                   <li>
-                    <a href="/ssti" class="sidebar-list-items"
-                      >Template Injection</a
+                    <button onclick="launchLab('template_injection_lab')" class="sidebar-list-items lab-button"
+                      >Template Injection</button
                     >
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/insecure-design" class="sidebar-list-items">
+                <button onclick="launchLab('insecure_design_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A4: Insecure Design
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/sec_mis" class="sidebar-list-items">
+                <button onclick="launchLab('sec_misconfig')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A5: Security Misconfiguration
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/a9" class="sidebar-list-items">
+                <button onclick="launchLab('a9_uckv_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A6: Vulnerable and Outdated Components
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/auth_failure" class="sidebar-list-items">
+                <button onclick="launchLab('auth_failure_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A7: Identification and Authentication Failures
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/2021/A8" class="sidebar-list-items">
+                <button onclick="launchLab('software_integrity_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A8: Software and Data Integrity Failures
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/a10" class="sidebar-list-items">
+                <button onclick="launchLab('insufficient_logging_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A9: Security Logging and Monitoring Failures
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/ssrf" class="sidebar-list-items">
+                <button onclick="launchLab('ssrf_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A10: Server-Side Request Forgery
-                </a>
+                </button>
               </li>
             </ul>
 
@@ -574,71 +574,71 @@
               </li>
               <ul class="collapse list-unstyled" id="sqlSubmenu">
                 <li>
-                  <a href="/sql" class="sidebar-list-items">SQl Injection </a>
+                  <button onclick="launchLab('sql_injection_lab')" class="sidebar-list-items lab-button">SQl Injection </button>
                 </li>
                 <li>
-                  <a href="/cmd" class="sidebar-list-items"
-                    >Command Injection</a
+                  <button onclick="launchLab('command_injection_lab')" class="sidebar-list-items lab-button"
+                    >Command Injection</button
                   >
                 </li>
               </ul>
               <li>
-                <a href="/bau" class="sidebar-list-items">
+                <button onclick="launchLab('broken_auth_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A2: Broken Authentication
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="/data_exp"
+                <button
+                  onclick="launchLab('sensitive_data_exposure')"
                   
-                  class="sidebar-list-items"
+                  class="sidebar-list-items lab-button"
                 >
                   <i class="fas fa-bug"></i>
                   A3: Sensitive Data Exposure
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/xxe" class="sidebar-list-items">
+                <button onclick="launchLab('xxe_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A4: XML External Entities (XXE)
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/ba" class="sidebar-list-items">
+                <button onclick="launchLab('broken_access_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A5: Broken Access Control
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/sec_mis" class="sidebar-list-items">
+                <button onclick="launchLab('sec_misconfig')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A6: Security Misconfiguration
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/xss" class="sidebar-list-items">
+                <button onclick="launchLab('xss_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A7: Cross Site Scripting
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/insec_des" class="sidebar-list-items">
+                <button onclick="launchLab('insec_des_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A8: Insecure Deserialization
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/a9" class="sidebar-list-items">
+                <button onclick="launchLab('a9_uckv_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A9: Using Components with Known Vulnerabilities
-                </a>
+                </button>
               </li>
               <li>
-                <a href="/a10" class="sidebar-list-items">
+                <button onclick="launchLab('insufficient_logging_lab')" class="sidebar-list-items lab-button">
                   <i class="fas fa-bug"></i>
                   A10: Insufficient Logging & Monitoring
-                </a>
+                </button>
               </li>
             </ul>
 
@@ -655,9 +655,9 @@
             </a>
             <ul class="collapse list-unstyled" id="challengeSubmenu">
               <li>
-                <a href="{% url 'bopla' %}" class="sidebar-list-items">Challenge 1</a>
-                <a href="{% url 'business_logic' %}" class="sidebar-list-items">Challenge 2</a>
-                <a href="{% url 'security_headers' %}" class="sidebar-list-items">Challenge 3</a>
+                <button onclick="launchLab('bopla_lab')" class="sidebar-list-items lab-button">Challenge 1</button>
+                <button onclick="launchLab('business_logic_lab')" class="sidebar-list-items lab-button">Challenge 2</button>
+                <button onclick="launchLab('security_headers_lab')" class="sidebar-list-items lab-button">Challenge 3</button>
               </li>
             </ul>
             <a
@@ -703,8 +703,12 @@
                   >
                 </li>
 
-
                 {% if user.is_authenticated %}
+                <li class="nav-item">
+                  <button class="nav-link btn-danger" onclick="stopAllLabs()" id="stop-labs-btn" style="background: none; border: none; color: #dc3545;">
+                    Stop All Labs
+                  </button>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href='{% url "logout" %}?next=/'
                     >Logout</a
@@ -724,6 +728,31 @@
         </nav>
 
         {% block content %} {% endblock %}
+      </div>
+    </div>
+
+    <!-- Status Modal -->
+    <div class="modal fade" id="statusModal" tabindex="-1" role="dialog" aria-labelledby="statusModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="statusModalLabel">Lab Status</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center">
+              <div id="status-spinner" class="spinner-border text-primary" role="status" style="display: none;">
+                <span class="sr-only">Loading...</span>
+              </div>
+              <p id="status-msg" class="mt-3"></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal" id="modal-close-btn">Close</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -783,5 +812,201 @@
       }
       
     </script>
+<script>
+    {% if user.is_authenticated %}
+    const isAuthenticated = true;
+    {% else %}
+    const isAuthenticated = false;
+    {% endif %}
+    function applyModalTheme() {
+        const isDark = localStorage.getItem('theme') === 'dark' || localStorage.getItem('theme') === null;
+        const modal = document.getElementById('statusModal');
+        
+        if (isDark) {
+            modal.className = 'modal fade modal-dark';
+        } else {
+            modal.className = 'modal fade modal-light';
+        }
+    }
+    
+    async function launchLab(imageName) {
+        const statusMsg = document.getElementById('status-msg');
+        const statusSpinner = document.getElementById('status-spinner');
+        const modal = $('#statusModal');
+        const closeBtn = document.getElementById('modal-close-btn');
+      const modalTitle = document.getElementById('statusModalLabel');
+      modalTitle.innerText = 'Lab Status';
+        
+        applyModalTheme();
+        
+        modal.modal('show');
+        statusSpinner.style.display = 'inline-block';
+        statusMsg.innerText = "Provisioning your environment... (this may take a little while)";
+        statusMsg.className = "mt-3 text-info";
+        closeBtn.style.display = 'none';
+        
+      if (!isAuthenticated) {
+        statusSpinner.style.display = 'none';
+        statusMsg.innerText = "You must be logged in to start labs. Please log in first.";
+        statusMsg.className = "mt-3 text-danger";
+        closeBtn.style.display = 'inline-block';
+        return;
+      }
+        
+        try {
+          const response = await fetch(`/challenge/start-lab/${imageName}/`);
+
+          if (response.status === 401) {
+            statusSpinner.style.display = 'none';
+            statusMsg.innerText = "You are not authenticated. Please log in to start labs.";
+            statusMsg.className = "mt-3 text-danger";
+            closeBtn.style.display = 'inline-block';
+            return;
+          }
+
+          if (!response.ok) {
+            statusSpinner.style.display = 'none';
+            let errMsg = `Request failed with status ${response.status}.`;
+            if (response.status === 403) errMsg = "Forbidden: you don't have permission to start this lab (403).";
+            else if (response.status === 404) errMsg = "Lab not found (404).";
+            else if (response.status === 429) errMsg = "Too many requests. Please try again later (429).";
+            else if (response.status >= 500) errMsg = "Server error. Please try again later.";
+
+            try {
+              const maybeJson = await response.json();
+              if (maybeJson && maybeJson.message) errMsg = maybeJson.message;
+            } catch (e) {
+              // ignore JSON parse errors
+            }
+
+            statusMsg.innerText = "Error: " + errMsg;
+            statusMsg.className = "mt-3 text-danger";
+            closeBtn.style.display = 'inline-block';
+            return;
+          }
+
+          let data = {};
+          if (response.headers.get('content-type') && response.headers.get('content-type').includes('application/json')) {
+            data = await response.json();
+          }
+
+          statusSpinner.style.display = 'none';
+
+          if (data.status === 'ready' || data.status === 'created') {
+              const labWindow = window.open(data.url);
+            
+            if (labWindow) {
+              statusMsg.innerHTML = `
+                Lab Ready! Opening in new tab... <br>
+                <small class="text-success">✓ Lab opened successfully</small>
+              `;
+              statusMsg.className = "mt-3 text-success";
+              modalTitle.innerText = 'Lab Status';
+            } else {
+              statusMsg.innerHTML = `
+                Lab Ready! <br>
+                <small class="text-warning">⚠ Unable to redirect to the lab</small><br>
+                <a href="${data.url}" target="_blank" class="btn btn-primary btn-sm mt-2">
+                  <i class="fas fa-external-link-alt"></i> Open this lab in a new tab
+                </a>
+              `;
+              statusMsg.className = "mt-3 text-success";
+            }
+          } else {
+            const msg = data && data.message ? data.message : 'Failed to start lab.';
+            statusMsg.innerText = "Error: " + msg;
+            statusMsg.className = "mt-3 text-danger";
+            closeBtn.style.display = 'inline-block';
+          }
+        } catch (error) {
+          console.error(error);
+          statusSpinner.style.display = 'none';
+          if (error instanceof TypeError) {
+            statusMsg.innerText = "Network error: unable to reach server. Check your connection.";
+          } else {
+            statusMsg.innerText = `Unexpected error: ${error && error.message ? error.message : error}`;
+          }
+          statusMsg.className = "mt-3 text-danger";
+          closeBtn.style.display = 'inline-block';
+        }
+    }
+    
+    async function stopAllLabs() {
+        const stopBtn = document.getElementById('stop-labs-btn');
+        const originalText = stopBtn.innerText;
+        const statusMsg = document.getElementById('status-msg');
+        const statusSpinner = document.getElementById('status-spinner');
+        const modal = $('#statusModal');
+        const closeBtn = document.getElementById('modal-close-btn');
+        const modalTitle = document.getElementById('statusModalLabel');
+        
+        applyModalTheme();
+        modalTitle.innerText = "Stop Labs";
+        modal.modal('show');
+        statusSpinner.style.display = 'inline-block';
+        statusMsg.innerText = "Stopping all running labs...";
+        statusMsg.className = "mt-3 text-info";
+        closeBtn.style.display = 'none';
+        
+        stopBtn.innerText = "Stopping...";
+        stopBtn.disabled = true;
+        
+        try {
+            function getCookie(name) {
+                let cookieValue = null;
+                if (document.cookie && document.cookie !== '') {
+                    const cookies = document.cookie.split(';');
+                    for (let i = 0; i < cookies.length; i++) {
+                        const cookie = cookies[i].trim();
+                        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+            
+            const csrftoken = getCookie('csrftoken');
+            
+            const response = await fetch('/challenge/stop-labs/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': csrftoken
+                }
+            });
+            const data = await response.json();
+            
+            statusSpinner.style.display = 'none';
+            
+            if (data.status === 'success') {
+                statusMsg.innerText = data.message;
+                statusMsg.className = "mt-3 text-success";
+                stopBtn.innerText = "Stopped!";
+                
+                setTimeout(() => {
+                    stopBtn.innerText = originalText;
+                    stopBtn.disabled = false;
+                modalTitle.innerText = 'Lab Status';
+                }, 10000);
+            } else {
+                statusMsg.innerText = `Error: ${data.message}`;
+                statusMsg.className = "mt-3 text-danger";
+                stopBtn.innerText = originalText;
+                stopBtn.disabled = false;
+                closeBtn.style.display = 'inline-block';
+            }
+        } catch (error) {
+            console.error(error);
+            statusSpinner.style.display = 'none';
+            statusMsg.innerText = "Failed to stop labs. Check console for details.";
+            statusMsg.className = "mt-3 text-danger";
+            stopBtn.innerText = originalText;
+            stopBtn.disabled = false;
+            closeBtn.style.display = 'inline-block';
+        }
+    }
+</script>
   </body>
 </html>
