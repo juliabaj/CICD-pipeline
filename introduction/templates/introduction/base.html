@@ -83,6 +83,74 @@
           </li>
           <li>
             <a
+              href="#OWASP10_2025"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              id="owasp10_2025"
+              style="padding: 13% 10% 0 0"
+            >
+              <i class="fas fa-flag"></i>
+              OWASP TOP 10 2025
+            </a>
+            <ul class="collapse list-unstyled" id="OWASP10_2025">
+              <li>
+                <button onclick="launchLab('broken_access_lab')" class="sidebar-list-items lab-button">A01: Broken Access Control</button>
+              </li>
+              <li>
+                <button onclick="launchLab('sec_misconfig')" class="sidebar-list-items lab-button">A02: Security Misconfiguration</button>
+              </li>
+              <li>
+                <button onclick="launchLab('')" disabled class="sidebar-list-items lab-button">A03: Software Supply Chain Failures</button>
+              </li>
+              <li>
+                <button onclick="launchLab('crypto_failure_lab')" class="sidebar-list-items lab-button">A04: Cryptographic Failures</button>
+              </li>
+              <li>
+                <a
+                  href="#sqlSubmenu3"
+                  data-toggle="collapse"
+                  aria-expanded="false"
+                  class="dropdown-toggle sidebar-list-items"
+                >
+                  <i class="fas fa-bug"></i>
+                  A05: Injection
+                </a>
+                <ul class="collapse list-unstyled" id="sqlSubmenu3">
+                  <li>
+                    <button onclick="launchLab('sql_injection_lab')" class="sidebar-list-items lab-button"
+                      >SQL Injection
+                    </button>
+                  </li>
+                  <li>
+                    <button onclick="launchLab('command_injection_lab')" class="sidebar-list-items lab-button"
+                      >Command Injection</button
+                    >
+                  </li>
+                  <li>
+                    <button onclick="launchLab('template_injection_lab')" class="sidebar-list-items lab-button"
+                      >Template Injection</button
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <button onclick="launchLab('insecure_design_lab')" class="sidebar-list-items lab-button">A06: Insecure Design</button>
+              </li>
+              <li>
+                <button onclick="launchLab('auth_failure_lab')" class="sidebar-list-items lab-button">A07: Authentication Failures</button>
+              </li>
+              <li>
+                <button onclick="launchLab('software_integrity_lab')" class="sidebar-list-items lab-button">A08: Software and Data Integrity Failures</button>
+              </li>
+              <li>
+                <button onclick="launchLab('insufficient_logging_lab')" class="sidebar-list-items lab-button">A09: Logging & Alerting Failures</button>
+              </li>
+              <li>
+                <button onclick="launchLab('mishandling_of_exceptional_conditions_lab')" class="sidebar-list-items lab-button">A10: Mishandling of Exceptional Conditions</button>
+              </li>
+            </ul>
+            <a
               href="#OWASP10_2021"
               data-toggle="collapse"
               aria-expanded="false"
